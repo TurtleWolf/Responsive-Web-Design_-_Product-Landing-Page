@@ -35,14 +35,69 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-<br><!-- <br> for simplified HTML level UI -->
-<h1 id="title"style="margin:4%;">Hexagon</h1><!-- Write your comments here -->
-<div id="container"style="margin-left:7%; width: 50%; border: thick double #32a1ce; padding: 7%; " >
-  <p id="description">
-    be sure to get a receipt for<br>any body mass left on planetary surface
-  </p> 
-</div><!-- id="container" from line 3-->
+<!--
+        <p id="description">
+        be sure to get a receipt for<br>any body mass left on planetary surface
+        </p>
+-->
 
+<header id="header">
+  <nav id="nav-bar">
+        <img id="header-img"
+         src="https://raw.githubusercontent.com/TurtleWolf/Responsive-Web-Design_-_Product-Landing-Page/master/favicon.ico"
+         alt="hexagons"/>
+      <button><a class="nav-link" href="#Natural">Natural</a></button>
+      <button><a class="nav-link" href="#Efficient">Efficient</a></button>
+      <button><a class="nav-link" href="#Free">Free</a></button>
+  </nav>
+</header>
+
+<div class="container">
+<section id="Natural">
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+  <h1>Naturally occuring, animal-crafted honeycomb</h1>    
+  <input name="email" id="email" type="email" placeholder="interstellar coordinates" required/>
+  <input id="submit" type="submit" value="engage"></input>
+</form>
+       <h2>Natural</h2>
+        <p>Bees pulp their local enviroment, reshaping it into a protective shell and minumizing any wasted space between the sections</p>
+       <h2>Instantly Available</h2>
+        <p>just create a hexagon out of what ever naturaly occuring resoures are already around you.</p>
+       <h2>Quantum growth rates</h2>
+        <p>Just plant 6 pin oaks approxamiately 35-40 ft appart so the roots have room to overlap.</p> 
+  </section>
+  <section id="Efficient"><iframe id="video" src="https://clips.twitch.tv/embed?clip=ColdSlickCourgetteDancingBaby" frameborder="3" allowfullscreen="true" height="378" width="620"></iframe>
+  </section>
+  <section id="Free">
+      <h2>6 pin Oaks: $12,000</h2>
+      <ol>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum dolor.</li>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum dolor.</li>
+        <li>Lorem ipsum.</li>
+      </ol>    
+      <h2>Squares: $400 a square foot</h2>
+      <ol>
+        <li>Traditional.</li>
+        <li>Just like the neighbors.</li>
+        <li>Easy to mass produce.</li>
+        <li>boxy like a cube.</li>
+      </ol>
+      <h2>Interdimensional: $pricelss</h2>
+      <ol>
+        <li>considers infinite choices of time & space</li>
+        <li>convientiently resolves all other choices in a parallel universes out of your way</li>
+        <li>allows for additional dimensions to be infolded in fractal foam</li>
+        <li>antimatter split at the eventhorizon plays out on a parrallel time span our continued space, inverted to project a hologram of a new time..</li>
+      </ol>    
+  </section>
+</div>
+<footer>
+    <span>Copyright 2018, TurtleWolfe.com</span>
+</footer>        
+        
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
